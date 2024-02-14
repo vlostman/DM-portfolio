@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David's Page</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box" >
+          <img src="./assets/images/my-avatar.png" alt="David Munive" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="David Munive">David Munive</h1>
+
+          <p class="title" align="right"> UI/UX Designer in progress*</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Work/Art</p>
+
+              <a href="https://davemnv.artstation.com/" class="contact-link">ArtStation</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="code-working-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Study Cases</p>
+
+              <a href="https://sites.google.com/view/davestudycases/inicio" class="contact-link">Blog</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Code</p>
+
+              <a href="https://github.com/vlostman" class="contact-link">Github</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="share-social-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Social Network</p>
+
+              <a href="https://twitter.com/david_mnv" class="contact-link">Twitter</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">CV</p>
+
+              <a href="https://www.linkedin.com/in/david-munive-it" class="contact-link">Curriculum Vitae</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <!--<ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>-->
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Study Cases</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <button class="button-28" role="button" id="cambiarIdioma">Cambiar Idioma</button>
+          <div id="textoIngles">
+          <p>
+            Hi, I'm David M, an autonomous designer, front-end developer/designer and UI/UX designer student. 
+          </p>
+
+          <p>
+            I am dedicated to creating attractive and functional digital experiences that are not only visually 
+            striking, but also intuitive and satisfying for users, finding the perfect harmony between aesthetics 
+            and functionality, firmly believing that design must also tell a story, convey a message and facilitate
+            user interaction. ... Learn and have fun in the process.</p>
+          <p>
+            And writing stories in my free time.
+          </p>
+          </div>
+          <div id="textoEspanol" style="display: none;">
+            <p>
+              Hola, soy David M, diseñador autónomo, desarrollador/diseñador front-end y estudiante de diseño UI/UX. 
+            </p>
+  
+            <p>
+              Me dedico a crear experiencias digitales atractivas y funcionales que no solo sean visualmente
+              llamativas, también intuitivas y satisfactorias para los usuarios, encontrando la perfecta armonía entre estética
+              y funcionalidad, creyendo firmemente que el diseño también debe contar una historia, transmitir un mensaje y facilitar
+              la interacción del usuario. ... Aprender y divertirme en el proceso.</p>
+            <p>
+              Y escribir historias en mi tiempo libre.
+            </p>
+        </div>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Making modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Videogame development</h4>
+
+                <p class="service-item-text">
+                  Freelance development of a game project.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Game Enviroment Designer</h4>
+
+                <p class="service-item-text">
+                  Creating environments that are consistent with the narrative, aesthetics and the overview of the project.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX learning</h4>
+
+                <p class="service-item-text">
+                  Learning about user behavior with the digital environment and how to benefit your experience with my knowledge through UX design.
+                  Making test projects and study cases.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="#" alt="d" width="80" data-modal-img>
+              </figure>
+
+              <img src="#" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+        
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Enviroment Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Code</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>General Design</button>
+            </li>
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>ui/ux design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>code</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>game development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>general design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="code">
+              <a href="https://github.com/vlostman/profinalmintic">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MedicalOffice.png" alt="wmaa" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Medical Atention App</h3>
+
+                <p class="project-category">Code</p>
+
+              </a>
+            </li>
+
+
+            
+            <li class="project-item  active" data-filter-item data-category="code">
+              <a href="https://github.com/vlostman/Hospital-Management-Prueba">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/medicaloffice2.png" alt="wmaadb" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hospital Management App</h3>
+
+                <p class="project-category">Code</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="code">
+              <a href="https://github.com/vlostman/SimplePharmaSoftJava">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/almacen.png" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pharmacy Java App</h3>
+
+                <p class="project-category">Code</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="general design">
+              <a href="https://www.artstation.com/artwork/RnrNRD">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdnb.artstation.com/p/assets/images/images/053/269/767/large/dave-mv-15.jpg?1661828733" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Personal Logo</h3>
+
+                <p class="project-category">General Design</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://www.artstation.com/artwork/lDlqnJ">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdna.artstation.com/p/assets/images/images/066/208/194/large/dave-mnv-highresscreenshot00003.jpg?1692312031" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Abandoned House Enviroment Test</h3>
+
+                <p class="project-category">Game Development</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="general design">
+              <a href="https://www.artstation.com/artwork/5v49vW">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdnb.artstation.com/p/assets/images/images/066/212/995/large/dave-mnv-untitled.jpg?1692329269" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trash in corner - Scene - Blender</h3>
+
+                <p class="project-category">General Design</p>
+
+              </a>
+            </li>
+
+
+            
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="https://www.artstation.com/artwork/n0BldX">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdnb.artstation.com/p/assets/images/images/066/581/421/large/dave-mnv-highresscreenshot00004.jpg?1693256607" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Beach water/rocks/light Enviroment.</h3>
+
+                <p class="project-category">Game Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="general design">
+              <a href="https://www.artstation.com/artwork/nElexo">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdnb.artstation.com/p/assets/images/images/051/072/015/large/dave-m-hearthcage3.jpg?1656397656" alt="pharmacy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Heart Cage Logo.</h3>
+
+                <p class="project-category">General Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="study cases">
+
+        <header>
+          <h2 class="h2 article-title">Study Cases</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://sites.google.com/view/davestudycases/case-study-1">
+
+                <figure class="blog-banner-box">
+                  <img src="https://lh5.googleusercontent.com/VgQ3iP-SCJKw1nrRbPERg6eg-ZB_vAE7Im2DoX3nmScp0_1PUGeqKx8iD-tWOCdV2F_Qiu4F8wR40RvdwhZOr-LuqRFoeew0SXdskkRdkEvaet8aWKouQOBulB9xxaN0Og=w1280" alt="Design case" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Study Case</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Web</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Study Case Web</h3>
+
+                  <p class="blog-text">
+                    UI/UX Study case about a web of cultural.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+    <div class="cursor"></div>
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--
+    - cursor
+  -->
+  <!--
+  <script>const cursor = document.querySelector('.cursor');
+  document.addEventListener('mousemove', (e) =>{
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+  })-->
+  </script>
+
+  
+</body>
+
+</html>
